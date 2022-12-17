@@ -331,6 +331,9 @@
                             <constraint firstItem="QAS-O8-nWo" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="sPM-H9-GVC"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="scrollView" destination="QAS-O8-nWo" id="B2r-31-PYA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
